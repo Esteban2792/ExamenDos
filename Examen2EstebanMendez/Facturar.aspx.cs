@@ -6,8 +6,8 @@ namespace Examen2EstebanMendez
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string fecha = DateTime.Today.ToString();
-            meslbl.Text = fecha;
+
+            meslbl.Text = "Hoy es: " + DateTime.Today;
             float monto = facturas.GetMonto();
             float descuento = facturas.GetDescuento();
             float subtotal = monto - descuento;

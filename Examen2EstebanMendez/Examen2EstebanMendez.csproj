@@ -67,9 +67,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FacturarTelefono.aspx" />
-    <Content Include="FacturarCable.aspx" />
-    <Content Include="FacturarAgua.aspx" />
     <Content Include="Facturar.aspx" />
     <Content Include="Imagenes\grifo.gif" />
     <Content Include="Imagenes\idea.gif" />
@@ -80,27 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cliente.cs" />
-    <Compile Include="FacturarTelefono.aspx.cs">
-      <DependentUpon>FacturarTelefono.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FacturarTelefono.aspx.designer.cs">
-      <DependentUpon>FacturarTelefono.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FacturarCable.aspx.cs">
-      <DependentUpon>FacturarCable.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FacturarCable.aspx.designer.cs">
-      <DependentUpon>FacturarCable.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FacturarAgua.aspx.cs">
-      <DependentUpon>FacturarAgua.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FacturarAgua.aspx.designer.cs">
-      <DependentUpon>FacturarAgua.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Facturar.aspx.cs">
       <DependentUpon>Facturar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

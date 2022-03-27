@@ -48,7 +48,7 @@ namespace Examen2EstebanMendez
             Cliente.SetTelefono(Telefonotxt.Text);
             Cliente.SetOpinion(Mensajetxt.Text);
             
-            Response.Redirect("FacturarCable.aspx");
+            Response.Redirect("Facturar.aspx");
         }
 
         protected void telefonoimg_Click(object sender, ImageClickEventArgs e)
@@ -59,7 +59,7 @@ namespace Examen2EstebanMendez
             Cliente.SetTelefono(Telefonotxt.Text);
             Cliente.SetOpinion(Mensajetxt.Text);
 
-            Response.Redirect("FacturarTelefono.aspx");
+            Response.Redirect("Facturar.aspx");
         }
     }
 }

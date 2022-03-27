@@ -55,8 +55,7 @@
                     <asp:Label ID="meslbl" runat="server"></asp:Label>
                     <br />
                     <br />
-                    <asp:Label ID="Montolbl" runat="server" Text="Monto a pagar de electricidad: "></asp:Label>
-                    <asp:TextBox ID="electricidadtxt" runat="server" TextMode="Number"></asp:TextBox>
+                    Monto a Pagar:<asp:TextBox ID="electricidadtxt" runat="server" TextMode="Number"></asp:TextBox>
                     <br />
                     <br />
                     Descuento:<asp:TextBox ID="descuentotxt" runat="server" TextMode="Number">0</asp:TextBox>

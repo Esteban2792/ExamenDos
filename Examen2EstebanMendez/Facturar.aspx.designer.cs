@@ -69,15 +69,6 @@ namespace Examen2EstebanMendez
         protected global::System.Web.UI.WebControls.Label meslbl;
 
         /// <summary>
-        /// Control Montolbl.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Montolbl;
-
-        /// <summary>
         /// Control electricidadtxt.
         /// </summary>
         /// <remarks>
